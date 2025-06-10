@@ -12,7 +12,7 @@ Creating a template for future Odin Project repo's to give me a quicker start. H
 - "build" runs npx webpack
 - "dev" runs the webpack dev server, connect at localhost:8080, ctrl-c to stop
 - "deploy" pushes the dist files to github pages "gh-pages" branch
-- "folders" builds out my folder structure
+- "setup" builds out my folder structure, installs packages and runs npm init
 
 ## Structure
 - /src contains /css, /font, /img and /js.
