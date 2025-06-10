@@ -1,10 +1,6 @@
 # odin-template
 Creating a template for future Odin Project repo's to give me a quicker start. Hopefully this works!
 
-## Structure
-- /src contains /css, /font, /img and /js.
-- Each of those contains a /wip folder that is .gitignore'd
-
 ## Webpack Packages
 - html-webpack-plugin
 - style-loader
@@ -16,6 +12,11 @@ Creating a template for future Odin Project repo's to give me a quicker start. H
 - "build" runs npx webpack
 - "dev" runs the webpack dev server, connect at localhost:8080, ctrl-c to stop
 - "deploy" pushes the dist files to github pages "gh-pages" branch
+- "folders" builds out my folder structure
+
+## Structure
+- /src contains /css, /font, /img and /js.
+- Each of those contains a /wip folder that is .gitignore'd
 
 ### Setup GitHub Pages Sub-Branch
 1. git branch gh-pages
