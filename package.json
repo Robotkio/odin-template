@@ -8,7 +8,7 @@
     "build": "webpack",
     "dev": "webpack serve",
     "deploy": "git subtree push --prefix dist origin gh-pages",
-    "setup": "mkdir src/css/wip src/font src/font/wip src/img src/img/wip src/js src/js/wip && npm install && nmp init"
+    "setup": "mkdir src/css/wip src/font src/font/wip src/img src/img/wip src/js src/js/wip && npm install && npm init"
   },
   "repository": {
     "type": "git",
